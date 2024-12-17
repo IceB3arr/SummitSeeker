@@ -1,0 +1,56 @@
+select {
+    padding: 12px;
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Hover adjust */
+
+select:hover {
+    background-color: #d9d9d9;
+}
+
+select:focus {
+    border-color: #FF5733;
+    box-shadow: 0 0 5px rgba(255, 87, 51, 0.5);
+}
+
+option {
+    background-color: #fff;
+    color: #333;
+}
+
+
+/* Stil für den Filtern Button */
+
+.filterbutton {
+    margin-left: 15px;
+    padding: 12px;
+    background-color: #ff7a5d;
+    border: 1px solid #a34e3b;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.filterbutton:hover {
+    background-color: #d1644c;
+    transition: background-color 0.3s ease;
+}
+
+.filterbutton,
+select {
+    height: 40px;
+}
